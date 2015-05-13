@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="http://thelia.net/schema/dic/module"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://thelia.net/schema/dic/module http://thelia.net/schema/dic/module/module-2_1.xsd">
+    <fullnamespace>CBFranFinance3x\CBFranFinance3x</fullnamespace>
+    <descriptive locale="en_US">
+        <title>3x payment with FranFinance</title>
+    </descriptive>
+    <descriptive locale="fr_FR">
+        <title>Paiement en 3x FranFinance</title>
+    </descriptive>
+    <languages>
+        <language>en_US</language>
+        <language>fr_FR</language>
+    </languages>
+    <version>1.0</version>
+    <author>
+        <name>Benjamin Perche</name>
+        <email>benjamin@thelia.net</email>
+    </author>
+    <type>payment</type>
+    <required>
+        <module version="&gt;=0.9.1">Atos</module>
+    </required>
+    <thelia>2.1.0</thelia>
+    <stability>prod</stability>
+</module>

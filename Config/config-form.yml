@@ -1,0 +1,7 @@
+config:
+  authentication_key: textarea
+  customize_code:
+    type: text
+    required: false
+  minimum_price: integer
+  maximum_price: integer

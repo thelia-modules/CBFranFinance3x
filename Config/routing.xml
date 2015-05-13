@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns="http://symfony.com/schema/routing" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://symfony.com/schema/routing http://symfony.com/schema/routing/routing-1.0.xsd">
+
+  <route id="cbfranfinance3x.configuration.default" path="/admin/module/CBFranFinance3x" methods="get">
+    <default key="_controller">CBFranFinance3x:CBFranFinance3xConfig:default</default>
+  </route>
+  <route id="cbfranfinance3x.configuration.save" path="/admin/module/CBFranFinance3x" methods="post">
+    <default key="_controller">CBFranFinance3x:CBFranFinance3xConfig:save</default>
+  </route>
+</routes>
